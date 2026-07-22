@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import { EditorialPage } from "@/components/editorial-page";
+export const metadata: Metadata={title:"Films"};
+export default function Page(){return <EditorialPage data={{kicker:"Wedding films",title:"The voices. The movement.",italic:"The way it all felt.",copy:"Cinematic wedding films shaped by real connection—so you can return to the sound, motion, and soul of your day.",quote:"Watching our film felt like stepping back into the room. We laughed, cried, and watched it again.",service:"Wedding film",detail:"Your film is built from the unscripted: a shaking breath, a familiar laugh, the room erupting. Refined storytelling gives those fragments a lasting rhythm.",art:"/brand/illustrations/cupid.png"}}/>}

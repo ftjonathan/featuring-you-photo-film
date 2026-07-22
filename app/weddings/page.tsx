@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import { EditorialPage } from "@/components/editorial-page";
+export const metadata: Metadata={title:"Weddings"};
+export default function Page(){return <EditorialPage data={{kicker:"Wedding photography + film",title:"The day as it happens.",italic:"The feeling, forever.",copy:"For celebrations where presence matters more than perfection—and every honest moment deserves to become part of the heirloom.",quote:"The images feel exactly like us: alive, tender, and full of the people we love.",service:"Wedding celebration",detail:"We blend documentary observation with intentional composition, preserving the atmosphere, movement, and emotion without pulling you away from it.",art:"/brand/illustrations/cake.png"}}/>}

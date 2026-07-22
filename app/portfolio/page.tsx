@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import { Intro, Placeholder, Shell } from "@/components/site-shell";
+export const metadata: Metadata={title:"Portfolio"};
+export default function Page(){return <Shell><Intro kicker="Selected stories" title="Honest moments." italic="Artfully remembered." copy="A living collection of celebrations, quiet glances, unruly laughter, and everything that happened in between."/><section className="portfolio-grid">{["The first look","Small gestures","Together","The ceremony","Just after","Late light","The toast","After dark"].map((x,i)=><Placeholder key={x} label={x} number={String(i+1).padStart(2,"0")} tall={i%3===0} dark={i===2||i===6}/>)}</section></Shell>}

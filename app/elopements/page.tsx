@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import { EditorialPage } from "@/components/editorial-page";
+export const metadata: Metadata={title:"Elopements"};
+export default function Page(){return <EditorialPage data={{kicker:"Elopements + intimate celebrations",title:"A day with room",italic:"to be yours.",copy:"For small, meaningful celebrations that trade expectation for intention—close to home or somewhere entirely new.",quote:"Nothing felt staged. We had an adventure together, and every photograph brings us right back.",service:"Intimate elopement",detail:"Whether it is the two of you or your closest people, we help create room for connection while documenting the day with warmth and honest artistry.",art:"/brand/illustrations/key.png"}}/>}
